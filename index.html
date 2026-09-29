@@ -1,88 +1,317 @@
-/* Estilos e Decoração do Site */
-body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #f4f7f6;
-    color: #333;
-    margin: 0;
-    padding: 20px;
-}
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aulas de Educação - Reforço Escolar</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f7f6;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
 
-.container {
-    max-width: 1000px;
-    margin: 0 auto;
-    background: #ffffff;
-    padding: 30px;
-    border-radius: 12px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-}
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background: #ffffff;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
 
-header {
-    border-bottom: 3px solid #3b82f6;
-    padding-bottom: 10px;
-    margin-bottom: 25px;
-}
+        header {
+            border-bottom: 3px solid #3b82f6;
+            padding-bottom: 10px;
+            margin-bottom: 25px;
+        }
 
-h1 {
-    color: #1e3a8a;
-    margin-bottom: 5px;
-}
+        h1 {
+            color: #1e3a8a;
+            margin-bottom: 5px;
+        }
 
-h2 {
-    color: #2563eb;
-    margin-top: 35px;
-    border-left: 4px solid #2563eb;
-    padding-left: 10px;
-}
+        h2 {
+            color: #2563eb;
+            margin-top: 35px;
+            border-left: 4px solid #2563eb;
+            padding-left: 10px;
+        }
 
-p {
-    line-height: 1.6;
-}
+        p {
+            line-height: 1.6;
+        }
 
-ul {
-    line-height: 1.8;
-    columns: 2;
-    -webkit-columns: 2;
-    -moz-columns: 2;
-}
+        ul {
+            line-height: 1.8;
+            columns: 2;
+            -webkit-columns: 2;
+            -moz-columns: 2;
+        }
 
-.table-container {
-    overflow-x: auto;
-    margin-top: 15px;
-    margin-bottom: 25px;
-}
+        .table-container {
+            overflow-x: auto;
+            margin-top: 15px;
+            margin-bottom: 25px;
+        }
 
-/* Estilo das Tabelas */
-table {
-    width: 100%;
-    border-collapse: collapse;
-    font-size: 0.9rem;
-}
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.9rem;
+        }
 
-th, td {
-    padding: 10px 12px;
-    text-align: left;
-    border-bottom: 1px solid #e5e7eb;
-}
+        th, td {
+            padding: 10px 12px;
+            text-align: left;
+            border-bottom: 1px solid #e5e7eb;
+        }
 
-th {
-    background-color: #2563eb;
-    color: white;
-    font-weight: 600;
-}
+        th {
+            background-color: #2563eb;
+            color: white;
+            font-weight: 600;
+        }
 
-tr:nth-child(even) {
-    background-color: #f8fafc;
-}
+        tr:nth-child(even) {
+            background-color: #f8fafc;
+        }
 
-tr:hover {
-    background-color: #f1f5f9;
-}
+        tr:hover {
+            background-color: #f1f5f9;
+        }
 
-footer {
-    margin-top: 40px;
-    padding-top: 15px;
-    border-top: 1px solid #e5e7eb;
-    text-align: center;
-    color: #666;
-    font-weight: 500;
-}
+        footer {
+            margin-top: 40px;
+            padding-top: 15px;
+            border-top: 1px solid #e5e7eb;
+            text-align: center;
+            color: #666;
+            font-weight: 500;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Educação para o Futuro</h1>
+            <p>Aulas particulares e acompanhamento escolar.</p>
+        </header>
+        
+        <main>
+            <section>
+                <h2>Sobre as Aulas</h2>
+                <p>Oferecemos suporte completo em matemática, português, ciências, inglês, biologia, linguagens, educação física, artes, física, química, geografia, filosofia, sociologia e informática para o ensino fundamental e ensino médio.</p>
+            </section>
+            
+            <section>
+                <h2>Nossos Cursos</h2>
+                <ul>
+                    <li>Reforço de Matemática Básica</li>
+                    <li>Matemática avançada</li>
+                    <li>Redação e Interpretação de Texto</li>
+                    <li>Ciências para estudantes</li>
+                    <li>Inglês avançado para estudantes</li>
+                    <li>Biologia para estudantes</li>
+                    <li>Linguagens avançada para estudantes</li>
+                    <li>Educação física para melhorar a saúde</li>
+                    <li>Artes para estudantes</li>
+                    <li>Física avançada para estudantes</li>
+                    <li>Química avançada para estudantes</li>
+                    <li>Geografia para estudantes</li>
+                    <li>Filosofia para estudantes</li>
+                    <li>Sociologia para estudantes</li>
+                    <li>Informática avançada para estudantes</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>1. Setor Pedagógico</h2>
+                <div class="table-container">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>ID</th>
+                                <th>Nome</th>
+                                <th>Cargo</th>
+                                <th>Setor</th>
+                                <th>Volume</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr><td>1</td><td>Ana Souza</td><td>Coordenadora Pedagógica</td><td>Pedagógico</td><td>1</td></tr>
+                            <tr><td>2</td><td>Carlos Lima</td><td>Orientador Educacional</td><td>Pedagógico</td><td>2</td></tr>
+                            <tr><td>3</td><td>Mariana Alves</td><td>Supervisora Escolar</td><td>Pedagógico</td><td>3</td></tr>
+                            <tr><td>4</td><td>João Santos</td><td>Professor</td><td>Pedagógico</td><td>4</td></tr>
+                            <tr><td>5</td><td>Beatriz Oliveira</td><td>Professora</td><td>Pedagógico</td><td>5</td></tr>
+                            <tr><td>6</td><td>Lucas Pereira</td><td>Professor</td><td>Pedagógico</td><td>6</td></tr>
+                            <tr><td>7</td><td>Fernanda Costa</td><td>Professora</td><td>Pedagógico</td><td>7</td></tr>
+                            <tr><td>8</td><td>Rafael Martins</td><td>Professor</td><td>Pedagógico</td><td>8</td></tr>
+                            <tr><td>9</td><td>Juliana Rocha</td><td>Orientadora</td><td>Pedagógico</td><td>9</td></tr>
+                            <tr><td>10</td><td>Pedro Almeida</td><td>Professor</td><td>Pedagógico</td><td>10</td></tr>
+                            <tr><td>11</td><td>Camila Ferreira</td><td>Coordenadora</td><td>Pedagógico</td><td>11</td></tr>
+                            <tr><td>12</td><td>Gabriel Mendes</td><td>Professor</td><td>Pedagógico</td><td>12</td></tr>
+                            <tr><td>13</td><td>Larissa Gomes</td><td>Professora</td><td>Pedagógico</td><td>13</td></tr>
+                            <tr><td>14</td><td>Daniel Ribeiro</td><td>Professor</td><td>Pedagógico</td><td>14</td></tr>
+                            <tr><td>15</td><td>Isabela Nunes</td><td>Orientadora</td><td>Pedagógico</td><td>15</td></tr>
+                            <tr><td>16</td><td>Thiago Barbosa</td><td>Professor</td><td>Pedagógico</td><td>16</td></tr>
+                            <tr><td>17</td><td>Amanda Castro</td><td>Professora</td><td>Pedagógico</td><td>17</td></tr>
+                            <tr><td>18</td><td>Felipe Cardoso</td><td>Supervisor</td><td>Pedagógico</td><td>18</td></tr>
+                            <tr><td>19</td><td>Vitória Ramos</td><td>Professora</td><td>Pedagógico</td><td>19</td></tr>
+                            <tr><td>20</td><td>Bruno Teixeira</td><td>Professor</td><td>Pedagógico</td><td>20</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+            <section>
+                <h2>2. Instrutores</h2>
+                <div class="table-container">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Nome</th>
+                                <th>Especialidade</th>
+                                <th>Email</th>
+                                <th>Telefone</th>
+                                <th>Data Contratação</th>
+                                <th>Status</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr><td>Carlos Silva</td><td>Musculação</td><td>carlos@email.com</td><td>31999990001</td><td>2024-02-10</td><td>Ativo</td></tr>
+                            <tr><td>Mariana Souza</td><td>Pilates</td><td>mariana@email.com</td><td>31999990002</td><td>2023-08-15</td><td>Ativo</td></tr>
+                            <tr><td>João Pereira</td><td>Funcional</td><td>joao@email.com</td><td>31999990003</td><td>2025-01-20</td><td>Ativo</td></tr>
+                            <tr><td>Ana Beatriz Lima</td><td>Spinning</td><td>ana.lima@email.com</td><td>31999990004</td><td>2024-03-01</td><td>Ativo</td></tr>
+                            <tr><td>Ricardo Santos</td><td>CrossFit</td><td>ricardo.santos@email.com</td><td>31999990005</td><td>2023-05-10</td><td>Ativo</td></tr>
+                            <tr><td>Camila Alves</td><td>Yoga</td><td>camila.alves@email.com</td><td>31999990006</td><td>2024-01-15</td><td>Ativo</td></tr>
+                            <tr><td>Lucas Rodrigues</td><td>Natação</td><td>lucas.rodrigues@email.com</td><td>31999990007</td><td>2022-11-20</td><td>Ativo</td></tr>
+                            <tr><td>Fernanda Costa</td><td>Zumba</td><td>fernanda.costa@email.com</td><td>31999990008</td><td>2023-09-05</td><td>Ativo</td></tr>
+                            <tr><td>Gabriel Martins</td><td>Musculação</td><td>gabriel.martins@email.com</td><td>31999990009</td><td>2024-06-12</td><td>Ativo</td></tr>
+                            <tr><td>Patricia Rocha</td><td>Pilates</td><td>patricia.rocha@email.com</td><td>31999990010</td><td>2023-01-18</td><td>Ativo</td></tr>
+                            <tr><td>Thiago Oliveira</td><td>Lutas / Muay Thai</td><td>thiago.oliveira@email.com</td><td>31999990011</td><td>2024-04-22</td><td>Ativo</td></tr>
+                            <tr><td>Juliana Ribeiro</td><td>Dança</td><td>juliana.ribeiro@email.com</td><td>31999990012</td><td>2022-07-14</td><td>Ativo</td></tr>
+                            <tr><td>Bruno Carvalho</td><td>Calistenia</td><td>bruno.carvalho@email.com</td><td>31999990013</td><td>2025-02-01</td><td>Ativo</td></tr>
+                            <tr><td>Beatriz Mendes</td><td>Funcional</td><td>beatriz.mendes@email.com</td><td>31999990014</td><td>2023-10-30</td><td>Ativo</td></tr>
+                            <tr><td>Rodrigo Ferreira</td><td>Hidroginástica</td><td>rodrigo.ferreira@email.com</td><td>31999990015</td><td>2021-08-05</td><td>Ativo</td></tr>
+                            <tr><td>Vanessa Barbosa</td><td>Spinning</td><td>vanessa.barbosa@email.com</td><td>31999990016</td><td>2024-05-18</td><td>Ativo</td></tr>
+                            <tr><td>Diego Gonçalves</td><td>Jiu-Jitsu</td><td>diego.goncalves@email.com</td><td>31999990017</td><td>2023-03-25</td><td>Ativo</td></tr>
+                            <tr><td>Larissa Dias</td><td>Yoga</td><td>larissa.dias@email.com</td><td>31999990018</td><td>2024-08-10</td><td>Ativo</td></tr>
+                            <tr><td>Felipe Araujo</td><td>Musculação</td><td>felipe.araujo@email.com</td><td>31999990019</td><td>2022-12-01</td><td>Ativo</td></tr>
+                            <tr><td>Aline Cardoso</td><td>Pilates</td><td>aline.cardoso@email.com</td><td>31999990020</td><td>2023-06-17</td><td>Ativo</td></tr>
+                            <tr><td>Eduardo Castro</td><td>Boxe</td><td>eduardo.castro@email.com</td><td>31999990021</td><td>2024-07-20</td><td>Ativo</td></tr>
+                            <tr><td>Renata Teixeira</td><td>Krav Maga</td><td>renata.teixeira@email.com</td><td>31999990022</td><td>2023-04-11</td><td>Ativo</td></tr>
+                            <tr><td>Marcelo Ramos</td><td>Personal Trainer</td><td>marcelo.ramos@email.com</td><td>31999990023</td><td>2021-09-30</td><td>Inativo</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+            <section>
+                <h2>3. Funcionários</h2>
+                <div class="table-container">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>ID</th>
+                                <th>Nome</th>
+                                <th>Cargo</th>
+                                <th>Setor</th>
+                                <th>Volume</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr><td>1</td><td>Ana Souza</td><td>Secretária</td><td>Administrativo</td><td>1</td></tr>
+                            <tr><td>2</td><td>Carlos Lima</td><td>Assistente Administrativo</td><td>Administrativo</td><td>2</td></tr>
+                            <tr><td>3</td><td>Mariana Alves</td><td>Diretora</td><td>Direção</td><td>3</td></tr>
+                            <tr><td>4</td><td>João Santos</td><td>Coordenador Administrativo</td><td>Administrativo</td><td>4</td></tr>
+                            <tr><td>5</td><td>Beatriz Oliveira</td><td>Recepcionista</td><td>Atendimento</td><td>5</td></tr>
+                            <tr><td>6</td><td>Lucas Pereira</td><td>Auxiliar Administrativo</td><td>Administrativo</td><td>6</td></tr>
+                            <tr><td>7</td><td>Fernanda Costa</td><td>Secretária Escolar</td><td>Secretaria</td><td>7</td></tr>
+                            <tr><td>8</td><td>Rafael Martins</td><td>Técnico de Informática</td><td>Tecnologia</td><td>8</td></tr>
+                            <tr><td>9</td><td>Juliana Rocha</td><td>Assistente Financeira</td><td>Financeiro</td><td>9</td></tr>
+                            <tr><td>10</td><td>Pedro Almeida</td><td>Contador</td><td>Financeiro</td><td>10</td></tr>
+                            <tr><td>11</td><td>Camila Ferreira</td><td>Auxiliar de Serviços Gerais</td><td>Manutenção</td><td>11</td></tr>
+                            <tr><td>12</td><td>Gabriel Mendes</td><td>Porteiro</td><td>Segurança</td><td>12</td></tr>
+                            <tr><td>13</td><td>Larissa Gomes</td><td>Recepcionista</td><td>Atendimento</td><td>13</td></tr>
+                            <tr><td>14</td><td>Daniel Ribeiro</td><td>Assistente Administrativo</td><td>Administrativo</td><td>14</td></tr>
+                            <tr><td>15</td><td>Isabela Nunes</td><td>Secretária</td><td>Secretaria</td><td>15</td></tr>
+                            <tr><td>16</td><td>Thiago Barbosa</td><td>Técnico de Informática</td><td>Tecnologia</td><td>16</td></tr>
+                            <tr><td>17</td><td>Amanda Castro</td><td>Auxiliar de Serviços Gerais</td><td>Manutenção</td><td>17</td></tr>
+                            <tr><td>18</td><td>Felipe Cardoso</td><td>Porteiro</td><td>Segurança</td><td>18</td></tr>
+                            <tr><td>19</td><td>Vitória Ramos</td><td>Assistente Financeira</td><td>Financeiro</td><td>19</td></tr>
+                            <tr><td>20</td><td>Bruno Teixeira</td><td>Auxiliar Administrativo</td><td>Administrativo</td><td>20</td></tr>
+                            <tr><td>21</td><td>Carolina Mendes</td><td>Secretária Escolar</td><td>Secretaria</td><td>21</td></tr>
+                            <tr><td>22</td><td>Gustavo Martins</td><td>Coordenador Administrativo</td><td>Administrativo</td><td>22</td></tr>
+                            <tr><td>23</td><td>Letícia Ferreira</td><td>Recepcionista</td><td>Atendimento</td><td>23</td></tr>
+                            <tr><td>24</td><td>Henrique Gomes</td><td>Auxiliar de Manutenção</td><td>Manutenção</td><td>24</td></tr>
+                            <tr><td>25</td><td>Natália Ribeiro</td><td>Assistente Administrativa</td><td>Administrativo</td><td>25</td></tr>
+                            <tr><td>26</td><td>André Carvalho</td><td>Vigilante</td><td>Segurança</td><td>26</td></tr>
+                            <tr><td>27</td><td>Bianca Fernandes</td><td>Auxiliar Financeira</td><td>Financeiro</td><td>27</td></tr>
+                            <tr><td>28</td><td>Eduardo Moreira</td><td>Técnico de Informática</td><td>Tecnologia</td><td>28</td></tr>
+                            <tr><td>29</td><td>Sofia Martins</td><td>Secretária</td><td>Secretaria</td><td>29</td></tr>
+                            <tr><td>30</td><td>Mateus Oliveira</td><td>Auxiliar Administrativo</td><td>Administrativo</td><td>30</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+            <section>
+                <h2>4. Disciplinas</h2>
+                <div class="table-container">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Código</th>
+                                <th>Nome da Disciplina</th>
+                                <th>Carga Horária</th>
+                                <th>Obrigatória</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr><td>MAT101</td><td>Matemática Básica</td><td>80h</td><td>Sim</td></tr>
+                            <tr><td>MAT102</td><td>Álgebra Linear</td><td>80h</td><td>Sim</td></tr>
+                            <tr><td>MAT103</td><td>Geometria Plana e Espacial</td><td>60h</td><td>Sim</td></tr>
+                            <tr><td>MAT104</td><td>Trigonometria</td><td>40h</td><td>Sim</td></tr>
+                            <tr><td>MAT105</td><td>Estatística e Probabilidade</td><td>60h</td><td>Não</td></tr>
+                            <tr><td>MAT106</td><td>Cálculo Introdutório</td><td>80h</td><td>Não</td></tr>
+                            <tr><td>POR101</td><td>Língua Portuguesa I</td><td>80h</td><td>Sim</td></tr>
+                            <tr><td>POR102</td><td>Língua Portuguesa II</td><td>80h</td><td>Sim</td></tr>
+                            <tr><td>LIT101</td><td>Literatura Brasileira I</td><td>60h</td><td>Sim</td></tr>
+                            <tr><td>LIT102</td><td>Literatura Portuguesa e Comparada</td><td>60h</td><td>Não</td></tr>
+                            <tr><td>ING101</td><td>Língua Inglesa Instrumental</td><td>40h</td><td>Sim</td></tr>
+                            <tr><td>ING102</td><td>Língua Inglesa Avançada</td><td>40h</td><td>Não</td></tr>
+                            <tr><td>SPA101</td><td>Língua Espanhola Básica</td><td>40h</td><td>Não</td></tr>
+                            <tr><td>ART101</td><td>Artes Visuais e História da Arte</td><td>40h</td><td>Sim</td></tr>
+                            <tr><td>EDU101</td><td>Educação Física e Saúde</td><td>40h</td><td>Sim</td></tr>
+                            <tr><td>FIS101</td><td>Física I - Mecânica</td><td>80h</td><td>Sim</td></tr>
+                            <tr><td>FIS102</td><td>Física II - Termodinâmica e Óptica</td><td>80h</td><td>Sim</td></tr>
+                            <tr><td>FIS103</td><td>Física III - Eletromagnetismo</td><td>80h</td><td>Sim</td></tr>
+                            <tr><td>QUI101</td><td>Química Geral e Geral Experimental</td><td>80h</td><td>Sim</td></tr>
+                            <tr><td>QUI102</td><td>Química Orgânica</td><td>60h</td><td>Sim</td></tr>
+                            <tr><td>BIO101</td><td>Biologia Celular e Genética</td><td>60h</td><td>Sim</td></tr>
+                            <tr><td>BIO102</td><td>Ecologia e Meio Ambiente</td><td>60h</td><td>Sim</td></tr>
+                            <tr><td>HIS101</td><td>História do Brasil I</td><td>60h</td><td>Sim</td></tr>
+                            <tr><td>HIS102</td><td>História Geral Contemporânea</td><td>60h</td><td>Sim</td></tr>
+                            <tr><td>GEO101</td><td>Geografia Física e Ambiental</td><td>60h</td><td>Sim</td></tr>
+                            <tr><td>GEO102</td><td>Geopolítica e Geografia Humana</td><td>60h</td><td>Sim</td></tr>
+                            <tr><td>SOC101</td><td>Introdução à Sociologia</td><td>40h</td><td>Sim</td></tr>
+                            <tr><td>FIL101</td><td>Introdução à Filosofia</td><td>40h</td><td>Sim</td></tr>
+                            <tr><td>INF101</td><td>Lógica de Programação</td><td>60h</td><td>Não</td></tr>
+                            <tr><td>INF102</td><td>Fundamentos de Bancos de Dados</td><td>60h</td><td>Não</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>Contato: Grauescola@educacao.com.br</p>
+        </footer>
+    </div>
+
+</body>
+</html>
